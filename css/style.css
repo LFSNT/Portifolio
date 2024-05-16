@@ -40,6 +40,13 @@ ul,a{
   animation: opacity 1s linear;
 }
 
+.centralizar {
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 figcaption {
   color: #000000;
   font: italic smaller sans-serif;
