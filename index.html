@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luiz Felipe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#"><span>LF</span></a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#habilidades">Habilidades</a></li>
+    <li><a href="#trajetoria">Trajetória</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#certificacoes">Certificações</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+
+ 
+
+
+<section id="hero">
+
+  <div class="hero-photo">
+    <div class="hero-photo-border">
+      <img src="./img/minhas_fotos/Foto2.png" alt="Luiz Felipe">
+    </div>
+  </div>
+  
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+ 
+
+  <div class="hero-content">
+    <h1 class="hero-name"><strong>Luiz</strong><span class="accent"> Felipe</span></h1>
+    <p class="hero-role">Analista de Dados · Gestão de TI</p>
+    <p class="hero-desc">Bem-vindo ao meu portfólio profissional! Aqui compartilho uma amostra de minhas experiências, habilidades e conquistas com a TI!</p>
+    
+    <div class="hero-actions">
+      <a href="./downloads/curriculo.pdf" class="btn-primary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Currículo
+      </a>
+      <a href="https://github.com/LFSNT" target="_blank" class="btn-secondary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/luiz-felipe-421a12149/" target="_blank" class="btn-secondary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=5512991524369" target="_blank" class="btn-secondary">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+
+
+    
+  </div>
+
+  
+
+  <div class="hero-scroll">Role para explorar</div>
+</section>
+
+   
+ 
+
+
+
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p class="section-label">Sobre mim</p>
+      <h2 class="section-title">Quem sou eu?</h2>
+      <p>Sou <strong>Luiz Felipe</strong>, formado em Gestão da Tecnologia da Informação, com mais de <strong>6 anos</strong> de experiência
+         no mercado de trabalho e atuação recente em e-commerce. Atualmente estou em transição para a área de <strong>Análise 
+         de Dados</strong> , desenvolvendo projetos práticos e aprimorando competências técnicas em Data Analytics para gerar 
+         insights estratégicos e apoiar a tomada de decisão!</p>
+    </div>
+    <div class="about-highlights">
+      <div class="highlight-card">
+        <div class="highlight-icon">💼</div>
+        <div class="highlight-title">Experiência Profissional Consolidada</div>
+        <div class="highlight-desc">Mais de 6 anos de atuação no mercado de trabalho, desenvolvendo responsabilidade, visão de negócio e maturidade profissional.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">🎓</div>
+        <div class="highlight-title">Formação em Gestão de TI</div>
+        <div class="highlight-desc">Formação em Tecnológo em Gestão da Tecnologia da Informação</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">🔄</div>
+        <div class="highlight-title">Transição para Data Analytics</div>
+        <div class="highlight-desc">Interesse em dashboards, relatórios e apoio à decisão.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">👁️</div>
+        <div class="highlight-title">Visão de Negócio Aliada à Tecnologia</div>
+        <div class="highlight-desc">Capacidade de conectar tecnologia, processos e dados para apoiar decisões estratégicas.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HABILIDADES -->
+<section id="habilidades">
+  <div class="reveal">
+    <p class="section-label">Habilidades</p>
+    <h2 class="section-title">Ferramentas & Competências</h2>
+    <p class="section-subtitle">Ferramentas, tecnologias e competências que utilizo atualmente e estou desenvolvendo ativamente!</p>
+  </div>
+  <div class="skills-grid reveal">
+    <div class="skill-category">
+      <div class="skill-cat-title">Hardskills</div>
+      <div class="skill-item">
+        <span class="skill-name">Power BI (Modelagem de Dados, DAX e Dashboards)</span>
+        <div class="skill-dots">
+          <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot half"></div>        </div>
+      </div>
+      <div class="skill-item">
+        <span class="skill-name">Excel/ Google Sheets (Análise e Tratamento de Dados)</span>
+        <div class="skill-dots">
+          <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div><div class="dot"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <span class="skill-name">Power Query (ETL e Transformação de Dados)</span>
+        <div class="skill-dots">
+          <div class="dot filled"></div><div class="dot filled"></div><div class="dot half"></div><div class="dot"></div><div class="dot"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <span class="skill-name">Modelagem de Processos (BPMN)</span>
+        <div class="skill-dots">
+          <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-cat-title">Soft Skills</div>
+      <div class="skill-item">
+        <span class="skill-name">📋 Gestão de projetos</span>
+        <div class="skill-dots">
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <span class="skill-name">🤝 Trabalho em equipe</span>
+          <div class="skill-dots">
+          </div>
+      </div>
+
+      <div class="skill-item">
+        <span class="skill-name">🗣️ Comunicação</span>
+          <div class="skill-dots">
+          </div>
+      </div>
+
+      <div class="skill-item">
+        <span class="skill-name">🔍 Pensamento analítico</span>
+          <div class="skill-dots">
+          </div>
+      </div>
+
+      <div class="skill-item">
+        <span class="skill-name">🎨 Storytelling e Design de Informação</span>
+        <div class="skill-dots">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="skill-category">
+  <div class="skill-cat-title">Ferramentas</div>
+  <div class="skill-item">
+    <span class="skill-name">HTML / CSS</span>
+    <div class="skill-dots">
+      <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div><div class="dot"></div>
+    </div>
+  </div>
+  <div class="skill-item">
+    <span class="skill-name">Git / GitHub</span>
+    <div class="skill-dots">
+      <div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+    </div>
+  </div>
+  <div class="skill-item">
+    <span class="skill-name">Google Workspace</span>
+    <div class="skill-dots">
+      <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div><div class="dot"></div>
+    </div>
+  </div>
+  <div class="skill-item">
+    <span class="skill-name">ERP (Tiny / Bling)</span>
+    <div class="skill-dots">
+      <div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div><div class="dot half"></div>
+    </div>
+  </div>
+</div>
+
+    
+
+  </div>
+</section>
+
+<!-- TRAJETÓRIA -->
+<section id="trajetoria">
+  <div class="reveal">
+    <p class="section-label">Trajetória</p>
+    <h2 class="section-title">Percurso Profissional</h2>
+    <p class="section-subtitle">FATEC Guaratinguetá — Gestão de TI</p>
+  </div>
+  <div class="timeline reveal">
+
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><span>🚨</span></div>
+      <div class="timeline-sem">JP2 Auto (SIX4 - Mercado Livre)</div>
+      <div class="timeline-title">Estagíario | E-commerce</div>
+      <div class="timeline-desc">
+        Atuação na gestão de vendas diretas, com foco em prospecção ativa e captação de leads 
+        qualificados. Responsável pelo atendimento consultivo ao cliente, oferecendo suporte durante 
+        todo o processo comercial.Colaborei na melhoria de processos internos e desenvolvi controles 
+        estratégicos para otimizar a performance comercial, contribuindo para maior organização, 
+        eficiência operacional e conversão de vendas.
+      </div>
+      <div class="timeline-tags">
+        <span class="tag">Tiny (ERP)</span>
+        <span class="tag">Tiny (CRM integrado)</span>
+        <span class="tag">GoogleSheets</span>
+        <span class="tag">Mapeamento de processos (BPMN)</span>
+        <span class="tag">Atendimento ao Cliente</span>
+        <span class="tag">Monitoramento de KPI's</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><span>💍</span></div>
+      <div class="timeline-sem">Valle Folheado (Valle18k - Mercado Livre)</div>
+      <div class="timeline-title">Estagíario | E-commerce</div>
+      <div class="timeline-desc">
+        Atuação na gestão operacional e estratégica do e-commerce, com responsabilidade pelo cadastro 
+        e organização de produtos em sistema ERP, criação e otimização de anúncios e gerenciamento de 
+        envios via modelo Fulfillment.
+      </div>
+      <div class="timeline-tags">
+        
+        <span class="tag">ERP (Bling)</span>
+        <span class="tag">CRM (RD Station)</span>
+        <span class="tag">Fulfillment (Mercado livre)</span>
+        <span class="tag">IA generativa</span>
+        <span class="tag">Monitoramento de KPI's</span>
+        <span class="tag">Canva</span>
+        <span class="tag">CapCut</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><span>🚜</span></div>
+      <div class="timeline-sem">Mauro Agrodiesel</div>
+      <div class="timeline-title">Auxiliar Administrativo</div>
+      <div class="timeline-desc">
+        Atuação no atendimento ao cliente interno e externo, garantindo suporte eficiente e alinhamento 
+        entre áreas. Responsável pela gestão de pedidos de vendas, acompanhamento de processos comerciais 
+        e controle financeiro, incluindo caixa, contas a pagar e a receber.
+        Também realizei recebimento de mercadorias, organização documental e suporte à rotina administrativa, 
+        contribuindo para a organização operacional e fluidez dos processos internos.
+      </div>
+      <div class="timeline-tags">
+        <span class="tag">Emissão de NF</span>
+        <span class="tag">PDV K2</span>
+        <span class="tag">Emissão NFS</span>
+        <span class="tag">Atendimento ao Cliente</span>
+        <span class="tag">Recebimento de Mercadorias</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><span>⚙️</span></div>
+      <div class="timeline-sem">Liebherr Brasil</div>
+      <div class="timeline-title">Aprendiz mecânico de usinagem</div>
+      <div class="timeline-desc">
+        Atuação como Operador de Ponte Rolante e Talha, responsável pela movimentação 
+        segura de cargas e apoio às operações industriais, seguindo normas de segurança e 
+        procedimentos técnicos.
+        Experiência como auxiliar de operador CNC, oferecendo suporte no processo produtivo e na 
+        preparação de máquinas. Responsável também pelo controle e gestão de ferramentas operacionais, 
+        garantindo organização, disponibilidade e eficiência no fluxo de produção.
+      </div>
+      <div class="timeline-tags">
+        <span class="tag">5S</span>
+        <span class="tag">Desenvolvimento de POP's</span>
+        <span class="tag">Usinagem</span>
+        <span class="tag">Gestão de Processos</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><span>🗃️</span></div>
+      <div class="timeline-sem">Valco Assessoria (3º EATON)</div>
+      <div class="timeline-title">Fiscal temporário</div>
+      <div class="timeline-desc">
+        Atuação temporária na área de recebimento fiscal, realizando conferência 
+        e validação de documentos fiscais, apoio na organização de notas e controle 
+        de registros conforme procedimentos internos.
+      </div>
+      <div class="timeline-tags">
+        <span class="tag">Emissão de NF</span>
+        <span class="tag">Rotina Administrativa</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><span>🧑‍💻</span></div>
+      <div class="timeline-sem">EATON</div>
+      <div class="timeline-title">Aprendiz (Administrativo)</div>
+      <div class="timeline-desc">
+       Atuação no acompanhamento e registro de notas fiscais em sistema ERP, garantindo conformidade 
+       e organização dos processos fiscais. Responsável pelo gerenciamento de documentos fiscais e 
+       administrativos, incluindo controle e organização de arquivo morto.    
+       Aplicação da metodologia 5S no ambiente de trabalho, promovendo padronização e eficiência 
+       operacional. Apoio no atendimento ao cliente interno e externo e auxílio na atualização 
+       de taxas de câmbio no sistema, contribuindo para a precisão das informações financeiras. 
+      </div>
+      <div class="timeline-tags">
+        <span class="tag">Emissão de NF</span>
+        <span class="tag">Rotina Administrativa</span>
+        <span class="tag">Arquivo Morto</span>
+        <span class="tag">atualização cambial</span>
+        
+      </div>
+    </div>
+<!-- 
+    <div class="timeline-item">
+      <div class="timeline-dot placeholder"><span>3S</span></div>
+      <div class="timeline-sem placeholder">3º Semestre</div>
+      <div class="timeline-title muted">Em andamento — conteúdo em breve</div>
+      <div class="timeline-desc faded">
+        <span class="placeholder-note">✏️ Preencher com os projetos e disciplinas do semestre</span>
+      </div>
+      <div class="timeline-tags"><span class="tag muted">A preencher</span></div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot placeholder"><span>4S</span></div>
+      <div class="timeline-sem placeholder">4º Semestre</div>
+      <div class="timeline-title muted">Em andamento — conteúdo em breve</div>
+      <div class="timeline-tags"><span class="tag muted">A preencher</span></div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot placeholder"><span>5S</span></div>
+      <div class="timeline-sem placeholder">5º Semestre</div>
+      <div class="timeline-title muted">Em andamento — conteúdo em breve</div>
+      <div class="timeline-tags"><span class="tag muted">A preencher</span></div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot placeholder"><span>6S</span></div>
+      <div class="timeline-sem placeholder">6º Semestre / TCC</div>
+      <div class="timeline-title muted">TCC — conteúdo em breve</div>
+      <div class="timeline-tags"><span class="tag muted">A preencher</span></div>
+    </div> -->
+
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos">
+  <div class="reveal">
+    <p class="section-label">Projetos</p>
+    <h2 class="section-title">O que construí</h2>
+    <p class="section-subtitle">Projetos acadêmicos e pessoais. Novos em desenvolvimento.</p>
+  </div>
+  <div class="projects-grid reveal">
+
+    <div class="project-card">
+      <div class="project-type">Projeto Acadêmico · Dispositivo</div>
+      <div class="project-name">WattsPlug</div>
+      <div class="project-desc">Desenvolvimento de um protótipo inteligente baseado em monitoramento em tempo real do consumo de energia elétrica, com foco em otimizar a tomada de decisão quanto ao consumo de enérgia eletrica.</div>
+      <img class="project-preview" src="./img/Projetos/WattsPlug.jpg">
+      <div class="project-footer">
+        <div class="timeline-tags">
+          <span class="tag">IoT</span>
+          <span class="tag">MVP</span>
+          <span class="tag">Prototipagem</span>
+        </div>
+        <a href="./projetos/WattsPlug.html" class="project-link">
+        Ver Projeto
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-type">Projetos · Dashboards</div>
+      <div class="project-name">Mini projetos (DSA)</div>
+      <div class="project-desc">Dashboards desenvolvidos durante a formação de Microsoft Power BI Para Business Intelligence e Data Science da Data Science Academy</div>
+      <img class="project-preview" src="./img/Projetos/ProjetosDSA.jpg"  alt="Preview Logística">
+      <div class="project-footer">
+        <div class="timeline-tags">
+          <span class="tag">Power BI</span>
+          <span class="tag">Dados</span>
+          <span class="tag">Dax</span>
+          <span class="tag">entendimento do negócio</span>
+        </div>
+        <button class="project-link" onclick="openModal('modal-logistica')">
+          <a href="./projetos/ProjetosDSA.html" class="project-link">
+        Ver Projeto
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>        </button>
+      </div>
+    </div>
+
+    <div class="project-card placeholder">
+      <div class="project-type">Projeto · Dados · Marketplace</div>
+      <div class="project-name">Mercado Livre — Analise de reclamações e Devoluções </div>
+      <div class="project-desc">
+        <span class="placeholder-note">Dashboard para acompanhamento de reclamações de clientes no markeplace</span>
+      </div>
+      <img class="project-preview" src="./img/Projetos/desenvolvendo.jpg" alt="Preview Logística">
+      <div class="project-footer">
+        <div class="timeline-tags">
+          <span class="tag muted">Mercado Livre</span>
+          <span class="tag muted">BI</span>
+          <span class="tag muted">Dashboard</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="project-card placeholder">
+      <div class="project-type">Projeto Acadêmico</div>
+      <div class="project-name">Projeto Integrador — em breve</div>
+      <div class="project-desc">
+        <span class="placeholder-note">✏️ Descreva aqui um projeto integrador relevante da FATEC.</span>
+      </div>
+      <div class="project-footer">
+        <div class="timeline-tags"><span class="tag muted">A preencher</span></div>
+      </div>
+    </div> -->
+
+  </div>
+</section>
+
+<!-- CERTIFICAÇÕES -->
+<section id="certificacoes">
+
+  <div class="reveal">
+    <p class="section-label">Certificações</p>
+    <h2 class="section-title">Formação Complementar</h2>
+    <p class="section-subtitle">Cursos e certificações que complementam minha formação.</p>
+  </div>
+
+  <div class="certs-grid reveal">
+
+    <div class="cert-card">
+      <div class="cert-icon">📈</div>
+      <div>
+        <div class="cert-name">Introdução à Análise de dadodos - Power BI</div>
+        <div class="cert-org">Fundação Bradesco</div>
+        <div class="cert-year">2026</div>
+        <a href="https://drive.google.com/file/d/1f3li4OXV0yIa8LjcnMN8RNphR1mNgDmu/view?usp=sharing" class="project-link">
+          Ver Certificação
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="cert-card">
+      <div class="cert-icon">👨🏾‍💻</div>
+      <div>
+        <div class="cert-name">Curso Superior em Gestão da Tecnologia da Informação</div>
+        <div class="cert-org">Fatec Guaratinguetá</div>
+        <div class="cert-year">2025</div>
+        <a  class="project-link">
+          A emitir...
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+      
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">📊</div>
+      <div>
+        <div class="cert-name">Introdução ao Power BI</div>
+        <div class="cert-org">Fatec Guaratinguetá</div>
+        <div class="cert-year">2024</div>
+        <a href="https://drive.google.com/file/d/1ZFsxOCVqgHETemPw50lW0z8Wd_csmlXK/view?usp=sharing" class="project-link">
+          Ver Certificação
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="cert-card">
+      <div class="cert-icon">⚙️</div>
+      <div>
+        <div class="cert-name">Mecanico de Usinagem</div>
+        <div class="cert-org">SENAI - Felix Guisard</div>
+        <div class="cert-year">2020</div>
+        <a href="https://drive.google.com/file/d/16jkGaMc1GiMpYwCF11O0Mz0npKqotHx7/view?usp=sharing" class="project-link">
+          Ver Certificação
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+    </div>
+    
+    <div class="cert-card">
+      <div class="cert-icon">💻</div>
+      <div>
+        <div class="cert-name">Técnico em Informática</div>
+        <div class="cert-org">ETEC - Alfredo de Barros</div>
+        <div class="cert-year">2017</div>
+        <a href="https://drive.google.com/file/d/17PyFcDEKLa25vvAtWozltewp0g3UkXH2/view?usp=sharing" class="project-link">
+          Ver Certificação
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">📚</div>
+      <div>
+        <div class="cert-name">Serviços Administrativos</div>
+        <div class="cert-org">SENAC - Guaratinguetá</div>
+        <div class="cert-year">2017</div>
+        <a href="https://drive.google.com/file/d/16oR9CEMsPDCvptk67Uv4aNjCTMmYCmkn/view?usp=sharing" class="project-link">
+          Ver Certificação
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato">
+  <div class="contact-wrapper reveal">
+    <div class="contact-right">
+      <p class="section-label">Contato</p>
+      <h2 class="contact-cta">Vamos conversar<span> ?</span></h2>
+      <p class="contact-body">Aberto a oportunidades em análise de dados, estágios e projetos colaborativos. Entre em contato pelo canal de sua preferência.</p>
+      <a href="https://api.whatsapp.com/send?phone=5512991524369" target="_blank" class="btn-primary"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"> <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:seuemail@email.com" class="contact-link">
+        <div class="contact-link-icon">✉️</div>
+        <div class="contact-link-info">
+          <div class="contact-link-label">E-mail</div>
+          <div class="contact-link-value">fe_snt@outlook.com</div>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/luiz-felipe-421a12149/" target="_blank" class="contact-link">
+        <div class="contact-link-icon">💼</div>
+        <div class="contact-link-info">
+          <div class="contact-link-label">LinkedIn</div>
+          <div class="contact-link-value">/in/luiz-felipe-421a12149</div>
+        </div>
+      </a>
+      <a href="https://github.com/LFSNT" target="_blank" class="contact-link">
+        <div class="contact-link-icon">🐙</div>
+        <div class="contact-link-info">
+          <div class="contact-link-label">GitHub</div>
+          <div class="contact-link-value">github.com/LFSNT</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2025 Luiz Felipe</span>
+  <a href="#hero">↑ Voltar ao topo</a>
+</footer>
+
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => observer.observe(el));
+
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    nav.style.padding = window.scrollY > 50 ? '1rem 6vw' : '1.4rem 6vw';
+  });
+
+  // Modal
+  function openModal(id) {
+    document.getElementById(id).classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(id) {
+    document.getElementById(id).classList.remove('active');
+    document.body.style.overflow = '';
+  }
+  function closeModalOutside(event, id) {
+    if (event.target === document.getElementById(id)) closeModal(id);
+  }
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.modal-overlay.active').forEach(m => {
+        m.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
