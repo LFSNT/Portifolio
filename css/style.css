@@ -1173,17 +1173,7 @@ button.project-link {
   display: block;
 }
 
-/* ── EMBED WRAPPER ── */
-.embed-wrapper {
-  width: 100%;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  position: relative;
-  height: 630px;
-  flex: 0 0 60%
-}
+
 
 .embed-wrapper-canva {
   width: 100%;
@@ -1213,6 +1203,21 @@ button.project-link {
     border: none;
   }
 }
+
+/* ── EMBED WRAPPER ── */
+.embed-wrapper {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  position: relative;
+  height: 570px;
+  flex: 0 0 60%
+  
+}
+
+
 .embed-wrapper iframe {
   position: absolute;
   top: 0;
@@ -1221,6 +1226,13 @@ button.project-link {
   height: 100%;
   border: none;
   display: block;
+}
+
+@media (max-width: 768px) {
+  .embed-wrapper {
+    height: 0;
+    padding-bottom: 56.25%;
+  }
 }
 
 /* Apenas quando estiver sozinho na seção */
@@ -1254,12 +1266,7 @@ button.project-link {
   }
 }
 
-@media (max-width: 768px) {
-  .embed-wrapper {
-    height: 0;
-    padding-bottom: 56.25%;
-  }
-}
+
 
 
 
