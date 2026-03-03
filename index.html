@@ -604,10 +604,10 @@ async function notificarAcesso() {
     const hora = new Date().toLocaleTimeString('pt-BR');
     const pagina = window.location.pathname;
 
-    const mensagem = `📊 *Portfólio acessado!*\n🕐 ${hora}\n📍 ${cidade}, ${estado} - ${pais}\n📄 Página: ${pagina}`;
+    const mensagem = `👁️ *Portfólio acessado!*\n🕐 ${hora}\n📍 ${cidade}, ${estado} - ${pais}\n📄 Página: ${pagina}`;
 
     const telefone = '5512991524369'; // ex: 5512991524369
-    const apikey = 'S8884071';
+    const apikey = '8884071';
 
     await fetch(`https://api.callmebot.com/whatsapp.php?phone=${telefone}&text=${encodeURIComponent(mensagem)}&apikey=${apikey}`);
   } catch(e) {
