@@ -594,6 +594,40 @@
 </footer>
 
 <script>
+
+async function notificarAcesso() {
+  try {
+    const geo = await fetch('https://ipapi.co/json/').then(r => r.json());
+    const cidade = geo.city || 'Desconhecida';
+    const estado = geo.region || '';
+    const pais = geo.country_name || '';
+    const hora = new Date().toLocaleTimeString('pt-BR');
+    const pagina = window.location.pathname;
+
+    const mensagem = `📊 *Portfólio acessado!*\n🕐 ${hora}\n📍 ${cidade}, ${estado} - ${pais}\n📄 Página: ${pagina}`;
+
+    const telefone = '5512991524369'; // ex: 5512991524369
+    const apikey = 'S8884071';
+
+    await fetch(`https://api.callmebot.com/whatsapp.php?phone=${telefone}&text=${encodeURIComponent(mensagem)}&apikey=${apikey}`);
+  } catch(e) {
+    console.log('Notificação não enviada');
+  }
+}
+
+notificarAcesso();
+
+
+
+
+
+
+
+
+
+
+
+
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
