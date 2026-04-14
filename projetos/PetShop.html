@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetShop | e-commerce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="../index.html"><span>LF</span></a>
+    <ul class="nav-links">
+      <li><a href="../index.html#sobre">Sobre</a></li>
+      <li><a href="../index.html#projetos">Projetos</a></li>
+      <li><a href="../index.html#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="projeto-hero">
+    <div class="projeto-hero-bg"></div>
+    <div class="projeto-hero-grid"></div>
+    <div class="projeto-hero-content">
+      <a href="../index.html#projetos" class="projeto-back">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="19" y1="12" x2="5" y2="12" />
+          <polyline points="12 19 5 12 12 5" />
+        </svg>
+        Voltar aos projetos
+      </a>
+      <div class="projeto-type">Projeto · Análise de Dados</div>
+      <h1 class="hero-name">Devoluções de um Petshop no Mercado Livre</h1>
+      <p class="projeto-subtitle">Dashboard de BI para identificar os principais motivos de devolução e apoiar decisões que reduzam custos e preservem a reputação do vendedor.</p>
+      <div class="projeto-meta">
+        <div class="projeto-meta-item">
+          <div class="projeto-meta-label">Ferramenta</div>
+          <div class="projeto-meta-value">Power BI</div>
+        </div>
+        <div class="projeto-meta-item">
+          <div class="projeto-meta-label">Tipo</div>
+          <div class="projeto-meta-value">Dashboard BI</div>
+        </div>
+        <div class="projeto-meta-item">
+          <div class="projeto-meta-label">Seguimento</div>
+          <div class="projeto-meta-value">Petshop · E-commerce</div>
+        </div>
+        <div class="projeto-meta-item">
+          <div class="projeto-meta-label">Ano</div>
+          <div class="projeto-meta-value">2025</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projeto-section">
+
+    <div class="section-title">Dashboard</div>
+    <div class="projeto-layout"> <!-- NOVO CONTAINER -->
+
+      <!-- CARD RESUMO -->
+      <div class="highlight-card-projeto">
+        <h3 class="dashboard-card-title">Contextualização</h3>
+        <p class="project-desc">
+          Petshops no Mercado Livre sofrem com devoluções que geram 
+          custos e prejudicam a reputação na plataforma. Este projeto 
+          transforma esses dados em insights para reduzir devoluções e 
+          melhorar a experiência do cliente.
+        </p>
+        <br>
+        <h3 class="dashboard-card-title">Estrutura do Projeto:</h3>
+        <p class="project-desc">Os dados foram coletados manualmente durante os atendimentos e 
+          registrados em uma planilha. A partir deste ponto, foram importados para o Power Query, onde 
+          passaram por limpeza e padronização. Com a base estruturada, foi criado um modelo 
+          relacional com medidas em DAX, permitindo calcular métricas como custo médio e 
+          volume por canal, e transformado em um dashboard com filtros por período, ranking 
+          de SKUs e análise dos principais motivos de devolução.
+        </p>
+
+        <ul class="project-desc-topicos">
+          <li>ETL no Power Query — limpeza e transformação dos dados</li>
+          <li>DAX — métricas como custo médio, percentual e contagem por período</li>
+          <li>Segmentação de dados — filtros por mês, canal (CD Full / CD Matriz) e SKU</li>
+          <li>Tratamento de outliers — identificação de picos anômalos de devolução</li>
+        </ul>
+        <br>
+        <h3 class="dashboard-card-title">Técnicas Aplicadas:</h3>
+        <p class="project-desc"> ETL no Power Query para limpeza e padronização dos dados, modelagem, 
+          motivos e SKUs, e medidas customizadas em DAX para métricas como custo médio e volume por canal</p>
+      </div>
+
+      <!-- DASHBOARD -->
+      <div class="embed-wrapper">
+        
+          <iframe title="Projeto-1" width="1140" height="541.25"
+            src="https://app.powerbi.com/view?r=eyJrIjoiMDljZGRmMTYtNDNiYy00NmZiLWJmMDgtMmYyMzQxNDg3MjgyIiwidCI6ImNmNzJlMmJkLTdhMmItNDc4My1iZGViLTM5ZDU3YjA3Zjc2ZiIsImMiOjR9"
+            frameborder="0" allowFullScreen="true">
+          </iframe>
+        </div>
+        <br>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2025 Luiz Felipe</span>
+    <a href="../index.html">← Voltar ao portfólio</a>
+  </footer>
+
+</body>
+
+</html>
